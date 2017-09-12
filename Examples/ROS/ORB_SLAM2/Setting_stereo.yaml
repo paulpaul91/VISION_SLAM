@@ -1,0 +1,28 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# The Settings of ORB-SLAM2 Monocular. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# the Orb Vocabulary File Path. Either .bin File or .txt File is Ok.
+  
+Orb_Vocabulary: /home/luobin/slam_work/VISION_SLAM/Vocabulary/ORBvoc.bin
+
+# the Camera Setting File Path. 
+
+Cam_Setting: /home/luobin/slam_work/VISION_SLAM/Examples/Stereo/KITTI00-02.yaml
+
+# Whether Run the ORB-SLAM2 System Using the Exsiting Map File (0 for no , 1 for yes).
+
+is_ReuseMap: 0
+start:500
+image_number: 4500
+save_map: 1
+
+# the Exsiting Map File Path (if the above item is 0, this is unnessesary)
+
+ReuseMap: /home/luobin/slam_work/VISION_SLAM/Examples/ROS/ORB_SLAM2/ORBSlam_Map_stereo.bin
+Sequence: /home/luobin/Documents/dataset/sequences/00
+
+
+
